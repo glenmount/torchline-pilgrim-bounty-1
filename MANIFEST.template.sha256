@@ -1,0 +1,21 @@
+Hash‑Chained Manifest (Template)
+List each artifact and its SHA‑256. Keep filenames stable; update the hash when content changes. Include this file at submission.
+
+# Artifact → SHA-256
+docs/guidelines_index_v1.pdf — [sha256]
+docs/policy_notes_v1.pdf    — [sha256]
+samples/sample_input.json   — [sha256]
+
+# Your outputs (example)
+outputs/nudge_example.json  — [sha256]
+logs/audit_top3.json        — [sha256]
+logs/fairness_report.json   — [sha256]
+logs/run_output_hash.txt    — [sha256]
+
+# Versioning
+meta/index_version.txt      — [sha256]   # contains the string you used as index_version
+meta/block_chain.log        — [sha256]   # your hash chain file if you keep one
+
+
+How we use this
+We verify file integrity, replay your outputs, and confirm your logs match the declared index_version and block_hash chain.
