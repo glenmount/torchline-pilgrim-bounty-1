@@ -81,6 +81,12 @@ Repo Layout
 
 /samples/ — tiny public examples (no real inputs).
 
+License
+
+This repository is published under the Apache-2.0 License.
+
+Entrants should license their own bounty repos under MIT or Apache-2.0.
+
 Ethos
 
 Fast help, no spying. Labels‑in → cited action‑out. Prove what you did with receipts any auditor can replay.
