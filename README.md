@@ -59,6 +59,7 @@ Your personal clock starts **only** when you hit **Declare Start** in the form. 
 - **Litmus output:** captured in the Entry Form in the required field order (no repo copy needed). :contentReference[oaicite:6]{index=6}
 
 ## Leaderboard (gates‑only)
+Update cadence: the leaderboard is updated within 48 hours of each submission. IDs are anonymised until judging; identity reveal is opt‑in.
 Anonymised IDs; columns: **DM% P/F, p95 P/F, Fairness P/F (+Freeze), Determinism P/F, Privacy P/F, Bonuses, Last update**; update cadence ~**48h**. Identity reveal is **opt‑in** after judging. :contentReference[oaicite:7]{index=7}
 
 ## Disallowed (instant DQ)
