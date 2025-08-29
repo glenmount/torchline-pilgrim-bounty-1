@@ -28,8 +28,6 @@ Your personal clock starts **only** when you hit **Declare Start** in the form. 
 - **Proofs over footage:** show **≤2** citations in the message; **log top‑3** with `doc_id, page, score` + `index_version` + `block_hash`.  
 - **Fairness:** equal-risk → equal-action; weekly gap **< 1.0 pp**, else **freeze** learning/changes (safety alerts allowed).  
   *Fairness is computed across cohorts (risk_band ∈ {LOW, MED, HIGH} × time_of_day ∈ {Day, Night}), with ≥30 decisions/week per cohort. Weekly gap must be <1.0 pp or you must freeze learning/policy changes until fixed. See Rails §5 for the full formula.*
-
-
 - **Reversibility (Churn‑Last):** every suggested action must be reversible within **72h**.  
 - **Language:** wording must be respectful and neutral; avoid blaming/stigmatizing terms. 
 
@@ -44,7 +42,6 @@ Your personal clock starts **only** when you hit **Declare Start** in the form. 
 - **Privacy incidents = 0**. 
 
 ## Prize pool (AUD 15,000)
--## Prize pool (AUD 15,000)
 - **Track awards:** Code **A$8,000** • Math **A$3,000** • PM **A$2,000**.  
 - **Stackable bonuses:**  
   - **Composability A$1,000** — clear interfaces: swap docs/policy or replace retrieval without breaking logic.  
