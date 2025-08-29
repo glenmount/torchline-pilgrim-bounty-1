@@ -45,10 +45,15 @@ Your personal clock starts **only** when you hit **Declare Start** in the form. 
 - **Privacy incidents = 0**. 
 
 ## Prize pool (AUD 15,000)
+-## Prize pool (AUD 15,000)
 - **Track awards:** Code **A$8,000** • Math **A$3,000** • PM **A$2,000**.  
-- **Stackable bonuses:** Composability **A$1,000** • Radar‑Sim **A$500** • Churn‑Last **A$500**.  
-- **Extras:** Top‑3 eligible entries overall → paid micro‑sprint + mentor time + fast‑track interview; overall **#4/#5** → mentor + interview.  
-- **If <3 pass:** we may award Top‑2 or Top‑1 only; unawarded funds → mentorship/round‑two. :contentReference[oaicite:4]{index=4}
+- **Stackable bonuses:**  
+  - **Composability A$1,000** — clear interfaces: swap docs/policy or replace retrieval without breaking logic.  
+  - **Radar-Sim A$500** — mmWave-style motion burst simulator/adapter with deterministic seeds + reproducible bursts.  
+  - **Churn-Last A$500** — lowest policy churn over a week: minimal action changes on similar inputs while still meeting gates.  
+- **Extras:** Top-3 eligible entries overall → paid micro-sprint + mentor time + fast-track interview; overall **#4/#5** → mentor + interview.  
+- **If <3 pass:** we may award Top-2 or Top-1 only; unawarded funds → mentorship/round-two.
+
 
 ## Entry steps (high‑level)
 1) **Effort Gate:** one‑pager + 5‑Q basics quiz (DM%, p95, ≤2 vs top‑3, fairness freeze, SZ). One structured retake if needed.  
