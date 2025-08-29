@@ -1,8 +1,4 @@
-Locked Area — Litmus Pack
+# Litmus Pack (Locked)
 
-This folder is intentionally empty.
-You will receive a private download link for the Litmus Pack after you press “Declare Start” in the Entry Form.
-
-Do not request access to this folder.
-
-If you received your start email but cannot download the pack, contact the organiser with your Entry ID.
+Private. Distributed **only after Declare Start** via expiring links.  
+**Do not request access.** No mirrors. No PRs. (See the Brief for pack contents and timing.)
