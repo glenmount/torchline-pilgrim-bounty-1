@@ -26,7 +26,11 @@ Your personal clock starts **only** when you hit **Declare Start** in the form. 
 - **Determinism:** same inputs → **byte‑identical** outputs (including citations) across **5×** runs.  
 - **Speed:** **p95 < 1.0 s** end‑to‑end on the provided doc pack.  
 - **Proofs over footage:** show **≤2** citations in the message; **log top‑3** with `doc_id, page, score` + `index_version` + `block_hash`.  
-- **Fairness:** equal‑risk → equal‑action; weekly gap **< 1.0 pp**, else **freeze** learning/changes (safety alerts allowed).  
+- **Fairness:** equal‑risk → equal‑action; weekly gap **< 1.0 pp**, else **freeze** learning/changes (safety alerts allowed).
+- > *Fairness is computed across cohorts (risk_band ∈ {LOW, MED, HIGH} × time_of_day ∈ {Day, Night}), 
+  > with ≥30 decisions/week per cohort. Weekly gap must be <1.0 pp or you must freeze learning/policy 
+  > changes until fixed (safety alerts still allowed). See Rails §5 for the full formula.*
+
 - **Reversibility (Churn‑Last):** every suggested action must be reversible within **72h**.  
 - **Language:** wording must be respectful and neutral; avoid blaming/stigmatizing terms. 
 
