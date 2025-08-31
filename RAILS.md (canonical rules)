@@ -1,0 +1,43 @@
+# Torchline Pilgrim — Rails (Non-Negotiables)
+
+These rules are absolute. Any violation = automatic fail.
+
+## Core
+- Surveillance-Zero: no audio/video accepted at ingress.
+- No PII in outputs.
+- All clocks/time windows = Australia/Brisbane.
+- Submissions must echo:
+  - index_version: "v1.0"
+  - rails_version: "rails-20250831-000000"
+
+## Citations
+- Show ≤2 in `citations_shown`.
+- Log exactly 3 in `citations_top3`, each with:
+  - doc_id, page, score, block_hash (sha256 of canonical block text).
+- Retrieval tie-break: score → doc_id → page.
+
+## Speed
+- `p95_ms` inline inside every receipt.
+- Must be identical across all objects and across all 5 runs.
+- End-to-end parse→emit, N=200, single process, network off.
+- Gate: p95 < 1000ms.
+
+## Determinism
+- 5 runs.
+- Byte-identical JSON (field order included).
+- Gate: all 5 hashes identical.
+
+## Fairness
+- Cohorts: Day vs Night within each risk_band.
+- Compute only if support ≥30 per cohort/week.
+- Gate: gap <1.0pp OR freeze_flag=true.
+- Week = Mon 00:00 → Sun 23:59 (Australia/Brisbane).
+
+## DM%
+- DM% = 100 × (Σ dignity_minutes) / (Σ total_minutes).
+- Gate: entrant_DM% ≥ baseline_DM% + 15.0pp (on Thin Slice).
+
+## Proof Coverage
+- ≥99% receipts must contain complete required fields.
+- SZ_receipt must be present on every A/V reject.
+
